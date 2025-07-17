@@ -1,0 +1,54 @@
+/* Paleta baseada na logo:
+   Azul escuro: #1F3F7F
+   Azul ciano: #00BCD4
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #1f3f7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 1.5rem;
+}
+
+.titulo {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #1f3f7f;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-decoration: none;
+  background-color: #1f3f7f;
+  color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  transition: transform 0.2s, background-color 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  background-color: #00bcd4;
+  transform: translateY(-5px);
+  color: #fff;
+}
